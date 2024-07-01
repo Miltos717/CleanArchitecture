@@ -1,18 +1,28 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
+  <!-- PropertyGroup contains general project properties -->
   <PropertyGroup>
+    <!-- Sets the root namespace for the project -->
     <RootNamespace>CleanArchitecture.Application</RootNamespace>
+    <!-- Sets the assembly name for the project output -->
     <AssemblyName>CleanArchitecture.Application</AssemblyName>
   </PropertyGroup>
 
+  <!-- ItemGroup contains package references for NuGet packages -->
   <ItemGroup>
+    <!-- Adds a reference to the Ardalis.GuardClauses package for guard clause usage -->
     <PackageReference Include="Ardalis.GuardClauses" />
+    <!-- Adds a reference to the AutoMapper package for object-object mapping -->
     <PackageReference Include="AutoMapper" />
+    <!-- Adds a reference to the FluentValidation.DependencyInjectionExtensions package for FluentValidation DI support -->
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+    <!-- Adds a reference to the Microsoft.EntityFrameworkCore package for Entity Framework Core usage -->
     <PackageReference Include="Microsoft.EntityFrameworkCore" />
   </ItemGroup>
 
+  <!-- ItemGroup contains project references to other projects -->
   <ItemGroup>
+    <!-- Adds a reference to the Domain project -->
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
