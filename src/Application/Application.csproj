@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+ <!-- PropertyGroup contains general project properties -->
   <!-- PropertyGroup contains general project properties -->
   <PropertyGroup>
     <!-- Sets the root namespace for the project -->
