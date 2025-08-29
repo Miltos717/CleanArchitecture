@@ -2,7 +2,7 @@
 using CleanArchitecture.Application.Common.Behaviours;
 
 namespace Microsoft.Extensions.DependencyInjection;
-
+# asasasasa
 public static class DependencyInjection
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
