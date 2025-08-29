@@ -9,6 +9,7 @@ namespace CleanArchitecture.Application.FunctionalTests;
 public class SqliteTestDatabase : ITestDatabase
 {
     private readonly string _connectionString;
+    private readonly string _connectionString11111;
     private readonly SqliteConnection _connection;
 
     public SqliteTestDatabase()
