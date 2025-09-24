@@ -2,7 +2,7 @@
 
 namespace CleanArchitecture.Application.FunctionalTests;
 
-public interface ITestDatabase
+public interface ITestDatab ase
 {
     Task InitialiseAsync();
 
