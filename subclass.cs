@@ -2,7 +2,6 @@ using System;
 
 namespace ExampleNamespace
 {
-    // Main class
     class Program
     {
         static void Main(string[] args)
@@ -28,31 +27,31 @@ namespace ExampleNamespace
         {
             Console.WriteLine("Today's date is: " + DateTime.Now.ToShortDateString());
         }
-    }
 
-    // Sub class
-    class SubClass
-    {
-        // Function 1
-        public void PrintMessage()
+        // Nested class
+        public class SubClass
         {
-            Console.WriteLine("Hello from the SubClass!");
-        }
+            // Function 1
+            public void PrintMessage()
+            {
+                Console.WriteLine("Hello from the Nested SubClass!");
+            }
 
-        // Function 2
-        public int AddNumbers(int a, int b)
-        {
-            int result = a + b;
-            Console.WriteLine($"Addition result: {result}");
-            return result;
-        }
+            // Function 2
+            public int AddNumbers(int a, int b)
+            {
+                int result = a + b;
+                Console.WriteLine($"Addition result: {result}");
+                return result;
+            }
 
-        // Function 3
-        public int MultiplyNumbers(int a, int b)
-        {
-            int result = a * b;
-            Console.WriteLine($"Multiplication result: {result}");
-            return result;
+            // Function 3
+            public int MultiplyNumbers(int a, int b)
+            {
+                int result = a * b;
+                Console.WriteLine($"Multiplication result: {result}");
+                return result;
+            }
         }
     }
 }
